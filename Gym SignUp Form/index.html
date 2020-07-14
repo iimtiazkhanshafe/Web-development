@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- css -->
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            /* font-family: Telenor; */
+            color: white;
+            padding: 0px;
+            margin: 0px;
+            background-image: url('img/bg.jpg');
+        }
+
+        .left {
+            position: absolute;
+            left: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 4px solid red; */
+        }
+
+        .left img {
+            width: 120px;
+            filter: invert(100%);
+        }
+
+        .left div {
+            text-align: center;
+        }
+
+        .mid {
+            display: block;
+            width: 33%;
+            margin: 20px auto;
+            /* border: 4px solid yellow; */
+        }
+
+        .right {
+            position: absolute;
+            right: 34px;
+            top: 20px;
+            display: inline-block;
+            /* border: 4px solid tomato; */
+        }
+
+        .btn {
+            margin: 0px 5px;
+            padding: 4px 14px;
+            background-color: black;
+            color: white;
+            border: 2px solid white;
+            border-radius: 8px;
+            cursor: pointer;
+
+        }
+
+        .btn:hover {
+            background-color: rgb(51, 47, 47);
+        }
+
+        .navbar {
+            display: inline-block;
+        }
+
+        .navbar li {
+            display: inline-block;
+            font-size: 20px;
+        }
+
+        .navbar li a {
+            color: white;
+            margin: 14px 14px;
+            text-decoration: none;
+        }
+
+        .navbar li a:hover, .navbar li a.active {
+            color: gray;
+
+        }
+
+        .contener {
+            border: 2px solid white;
+            margin: 106px 60px;
+            padding: 58px 47px;
+            width: 33%;
+            border-radius: 34px;
+        }
+
+        .form_group{
+            display: block;
+            /* width: 10px; */
+            padding: 2px;
+            margin: 2px auto;
+        }
+
+        .input{
+            width: 310px;
+            font-size: 15px;
+            border: 5px solid black;
+            border-radius: 5px;
+            padding-left: 10px;
+        }
+
+        .contener button{
+            display: block;
+            width: 315px;
+            padding: 4px;
+            margin-top: 12px;
+        }
+    </style>
+    <title>Fitness Gym</title>
+
+</head>
+
+<body>
+    <header class="header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/logo.png" alt="">
+            <div>Fitness Gym</div>
+        </div>
+        <!-- mid box for nav bar -->
+        <div class="mid">
+            <div class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness calculator</a></li>
+                <li><a href="#">Contract us</a></li>
+            </div>
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call now</button>
+            <button class="btn">Send Email</button>
+        </div>
+    </header>
+
+    <div class="contener">
+        <h1>Join the best Gym of Dhaka now</h1>
+
+        <form action="noaction.php" method="post">
+            <div class="form_group">
+                <input type="text" class="input" name="" placeholder="Enter your Name">
+            </div>
+            <div class="form_group">
+                <input type="text" class="input" name="" placeholder="Enter your Age">
+            </div>
+            <div class="form_group">
+                <input type="text" class="input" name="" placeholder="Enter your Gender">
+            </div>
+            <div class="form_group">
+                <input type="text" class="input" name="" placeholder="Enter your Place">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+    </div>
+</body>
+
+</html>
