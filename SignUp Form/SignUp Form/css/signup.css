@@ -1,0 +1,64 @@
+body{
+	background-color: #8080804d;
+	background-image: url(https://ak7.picdn.net/shutterstock/videos/26852647/thumb/1.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: white;
+}
+
+#from {
+    width: 410px;
+    margin: auto;
+    margin-top: 20px;
+    border: 2px solid darkgray;
+    padding: 28px;
+    background-color: #ffffff12;
+}
+
+
+
+.input {
+    margin: 5px;
+    width: 93%;
+    padding: 10px;
+}
+.sf{
+	background-color: #ffffff12;
+	color: white;
+	font-family: arial black; 
+}
+.input2{
+	margin: 5px;
+    width: 99%;
+    padding: 10px;
+}
+.gender{
+	margin-top: 20px
+}
+.gender2{
+	display: inline;
+	
+}
+.hobbies2{
+	display: inline-block;
+}
+.signup{
+	margin: 5px;
+    width: 95%;
+    padding: 10px;
+    background-color: #ffffff12;
+    margin-top: 25px;
+}
+.signup2{
+	text-decoration: none;
+    background-color: #ffffff12;
+    color: white;
+    font-family: arial black;
+    border: 1px solid #ffffff12;
+    font-size: 16px;
+    padding: 3px;
+    width: 100%;
+    border-radius: 5px
+
+
+}
