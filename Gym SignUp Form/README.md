@@ -1,1 +1,1 @@
-#Gym Sign Up Form
+Gym Sign Up Form
